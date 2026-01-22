@@ -55,7 +55,7 @@ class ECDH {
     return Uint8List.fromList(random);
   }
 
-  void agreement(String otherPublicKeyPem) {
+  void agreement({required String otherPublicKeyPem}) {
     // final otherPublicKey =
     //     CryptoUtils.parseEcPublicKeyFromPem(otherPublicKeyPem);
     // final agreement = ECDHBasicAgreement();
